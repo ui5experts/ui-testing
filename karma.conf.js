@@ -11,7 +11,11 @@ module.exports = function(config) {
     client: {
       openui5: {
         config: {
-          theme: 'sap_belize'
+          theme: 'sap_belize',
+          resourceRoots: {
+            'ui5experts.ui-testing': '/base',
+            'test.unit': '/base/test/unit'
+          }
         },
         mockserver: {
           config: {
