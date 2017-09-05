@@ -57,17 +57,23 @@ module.exports = function(config) {
     browsers: ['Chrome'],
 
 
-    // test results reporter to use
-    // available reporters: https://npmjs.org/browse/keyword/karma-reporter
-    // 'progress' = default test result output to console
-    reporters: ['progress', 'coverage'],
-
-
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
       'webapp/!(test)/**/*.js': ['coverage'], // exclude tests from coverage
       'webapp/*.js': ['coverage']
+    },
+
+
+    // test results reporter to use
+    // available reporters: https://npmjs.org/browse/keyword/karma-reporter
+    // 'progress' = default test result output to console
+    reporters: ['progress', 'junit', 'coverage'],
+
+
+    junitReporter: {
+      outputDir: 'build/reports/unit',
+      useBrowserName: false
     },
 
 
