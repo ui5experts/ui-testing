@@ -2,7 +2,7 @@
   "name": "ui-testing",
   "version": "1.0.0",
   "description": "This is your copy of the SAPUI5 Master-Detail Freestyle Application Template. You can find the template version in the .project.json - file in your workspace",
-  "main": "index.js",
+  "main": "server.js",
   "dependencies": {
     "http-proxy-middleware": "^0.17.4",
     "express": "^4.15.4"
