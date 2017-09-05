@@ -4,8 +4,8 @@ module.exports = function(config) {
     frameworks: ['openui5'],
 
     openui5: {
-      path: 'http://path/to/sap-ui-core.js',
-      useMockServer: false
+      path: 'https://sapui5.hana.ondemand.com/resources/sap-ui-core.js',
+      useMockServer: true
     },
 
     client: {
@@ -17,8 +17,8 @@ module.exports = function(config) {
           config: {
             autoRespond: true
           },
-          rootUri: '/my/service/',
-          metadataURL: '/base/test/mock.xml',
+          rootUri: '',
+          metadataURL: '/base/webapp/localService/metadata.xml',
           mockdataSettings: {
 
           }
