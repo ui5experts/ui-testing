@@ -48,7 +48,13 @@ module.exports = function(config) {
         included: false,
         served: true
       }
-    ]
+    ],
+
+
+    // start these browsers
+    // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
+    // use '--browsers ChromeHeadless' to override from CLI
+    browsers: ['Chrome']
 
   });
 };
