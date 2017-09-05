@@ -9,7 +9,9 @@
   },
   "devDependencies": {
     "karma": "^1.7.1",
-    "karma-openui5": "^0.2.2"
+    "karma-openui5": "^0.2.2",
+    "karma-qunit": "^1.2.1",
+    "qunitjs": "^2.4.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

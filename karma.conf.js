@@ -2,7 +2,7 @@
 module.exports = function(config) {
   config.set({
 
-    frameworks: ['openui5'],
+    frameworks: ['qunit','openui5'],
 
 
     openui5: {
@@ -16,8 +16,8 @@ module.exports = function(config) {
         config: {
           theme: 'sap_belize',
           resourceRoots: {
-            'ui5experts.ui-testing': '/base',
-            'test.unit': '/base/test/unit'
+            'ui5experts.ui-testing': '/base/webapp',
+            'test.unit': '/base/webapp/test/unit'
           }
         },
         mockserver: {
