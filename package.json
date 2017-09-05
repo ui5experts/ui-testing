@@ -7,7 +7,10 @@
     "http-proxy-middleware": "^0.17.4",
     "express": "^4.15.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "karma": "^1.7.1",
+    "karma-openui5": "^0.2.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
