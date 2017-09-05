@@ -14,6 +14,7 @@
     "karma-junit-reporter": "^1.2.0",
     "karma-openui5": "^0.2.2",
     "karma-qunit": "^1.2.1",
+    "puppeteer": "^0.10.2",
     "qunitjs": "^2.4.0"
   },
   "scripts": {

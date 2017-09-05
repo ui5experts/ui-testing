@@ -1,3 +1,12 @@
+// Setup ChromeHeadless
+// see https://github.com/karma-runner/karma-chrome-launcher
+const ChromiumRevision = require('puppeteer/package.json').puppeteer.chromium_revision;
+const Downloader = require('puppeteer/utils/ChromiumDownloader');
+const revisionInfo = Downloader.revisionInfo(Downloader.currentPlatform(), ChromiumRevision);
+
+process.env.CHROME_BIN = revisionInfo.executablePath;
+
+
 // karma.conf.js
 module.exports = function(config) {
   config.set({
@@ -11,7 +20,13 @@ module.exports = function(config) {
     },
 
 
+    // plugin settings
     client: {
+      qunit: {
+        showUI: true,
+        testTimeout: 3000
+      },
+
       openui5: {
         config: {
           theme: 'sap_belize',
@@ -57,6 +72,14 @@ module.exports = function(config) {
     browsers: ['Chrome'],
 
 
+    customLaunchers: {
+      Chrome_without_security: {
+        base: 'Chrome',
+        flags: ['--disable-web-security']
+      }
+    },
+
+
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
@@ -81,6 +104,11 @@ module.exports = function(config) {
       includeAllSources: true,
       dir: 'build/reports/coverage'
     }
+
+
+    // Continuous Integration mode
+    // if true, Karma captures browsers, runs the tests and exits
+    // singleRun: false // use '--single-run' to override from CLI
 
   });
 };
