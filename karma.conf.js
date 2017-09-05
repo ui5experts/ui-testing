@@ -1,12 +1,15 @@
 // karma.conf.js
 module.exports = function(config) {
   config.set({
+
     frameworks: ['openui5'],
+
 
     openui5: {
       path: 'https://sapui5.hana.ondemand.com/resources/sap-ui-core.js',
       useMockServer: true
     },
+
 
     client: {
       openui5: {
@@ -28,6 +31,24 @@ module.exports = function(config) {
           }
         }
       }
-    }
+    },
+
+
+    // list of files / patterns to load in the browser
+    files: [
+      {
+        pattern: 'webapp/test/unit/allTests.js',
+        watched: true,
+        included: true,
+        served: true
+      },
+      {
+        pattern: 'webapp/**',
+        watched: true,
+        included: false,
+        served: true
+      }
+    ]
+
   });
 };
