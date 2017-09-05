@@ -1,0 +1,352 @@
+[
+  {
+    "EstimatedCost": {
+      "Currency": "EUR",
+      "Value": 1299.99
+    },
+    "LastChangeDate": "/Date(1327063328000)/",
+    "TripActivityName": "Customer Visit",
+    "Id": "Id 1",
+    "Purpose": "Purpose 1",
+    "Departure": "/Date(1365939728000)/",
+    "Arrival": "/Date(1035286928000)/",
+    "Location": "Location 1",
+    "CountryCode": "CountryCode 1",
+    "CountryName": "CountryName 1",
+    "RequesterFirstName": "RequesterFirstName 1",
+    "Note": "Note 1",
+    "Status": "Status 1",
+    "RequesterLastName": "RequesterLastName 1",
+    "WorkItemID": "WorkItemID 1",
+    "PersonalNumber": 9527,
+    "__metadata": {
+      "uri": "Travels('WorkItemID%201')",
+      "type": "SRA009_SRV.Travel"
+    },
+    "CostAssignments": {
+      "__deferred": {
+        "uri": "Travels('WorkItemID%201')/CostAssignments"
+      }
+    },
+    "TravelHistory": {
+      "__deferred": {
+        "uri": "Travels('WorkItemID%201')/TravelHistory"
+      }
+    }
+  },
+  {
+    "EstimatedCost": {
+      "Currency": "EUR",
+      "Value": 2799.00
+    },
+    "LastChangeDate": "/Date(1370691728000)/",
+    "TripActivityName": "China",
+    "Id": "Id 2",
+    "Purpose": "Purpose 2",
+    "Departure": "/Date(995542928000)/",
+    "Arrival": "/Date(1047645728000)/",
+    "Location": "Location 2",
+    "CountryCode": "CountryCode 2",
+    "CountryName": "CountryName 2",
+    "RequesterFirstName": "RequesterFirstName 2",
+    "Note": "Note 2",
+    "Status": "Status 2",
+    "RequesterLastName": "RequesterLastName 2",
+    "WorkItemID": "WorkItemID 2",
+    "PersonalNumber": 4888,
+    "__metadata": {
+      "uri": "Travels('WorkItemID%202')",
+      "type": "SRA009_SRV.Travel"
+    },
+    "CostAssignments": {
+      "__deferred": {
+        "uri": "Travels('WorkItemID%202')/CostAssignments"
+      }
+    },
+    "TravelHistory": {
+      "__deferred": {
+        "uri": "Travels('WorkItemID%202')/TravelHistory"
+      }
+    }
+  },
+  {
+    "EstimatedCost": {
+      "Currency": "EUR",
+      "Value": 17042.14
+    },
+    "LastChangeDate": "/Date(998826128000)/",
+    "TripActivityName": "Going to Ibiza",
+    "Id": "Id 3",
+    "Purpose": "Purpose 3",
+    "Departure": "/Date(1568720528000)/",
+    "Arrival": "/Date(1448196128000)/",
+    "Location": "Location 3",
+    "CountryCode": "CountryCode 3",
+    "CountryName": "CountryName 3",
+    "RequesterFirstName": "RequesterFirstName 3",
+    "Note": "Note 3",
+    "Status": "Status 3",
+    "RequesterLastName": "RequesterLastName 3",
+    "WorkItemID": "WorkItemID 3",
+    "PersonalNumber": 6901,
+    "__metadata": {
+      "uri": "Travels('WorkItemID%203')",
+      "type": "SRA009_SRV.Travel"
+    },
+    "CostAssignments": {
+      "__deferred": {
+        "uri": "Travels('WorkItemID%203')/CostAssignments"
+      }
+    },
+    "TravelHistory": {
+      "__deferred": {
+        "uri": "Travels('WorkItemID%203')/TravelHistory"
+      }
+    }
+  },
+  {
+    "EstimatedCost": {
+      "Currency": "EUR",
+      "Value": 1869.81
+    },
+    "LastChangeDate": "/Date(1272022928000)/",
+    "TripActivityName": "Hawaii Incentive",
+    "Id": "Id 4",
+    "Purpose": "Purpose 4",
+    "Departure": "/Date(952260128000)/",
+    "Arrival": "/Date(1238244128000)/",
+    "Location": "Location 4",
+    "CountryCode": "CountryCode 4",
+    "CountryName": "CountryName 4",
+    "RequesterFirstName": "RequesterFirstName 4",
+    "Note": "Note 4",
+    "Status": "Status 4",
+    "RequesterLastName": "RequesterLastName 4",
+    "WorkItemID": "WorkItemID 4",
+    "PersonalNumber": 245,
+    "__metadata": {
+      "uri": "Travels('WorkItemID%204')",
+      "type": "SRA009_SRV.Travel"
+    },
+    "CostAssignments": {
+      "__deferred": {
+        "uri": "Travels('WorkItemID%204')/CostAssignments"
+      }
+    },
+    "TravelHistory": {
+      "__deferred": {
+        "uri": "Travels('WorkItemID%204')/TravelHistory"
+      }
+    }
+  },
+  {
+    "EstimatedCost": {
+      "Currency": "EUR",
+      "Value": 478.61
+    },
+    "LastChangeDate": "/Date(1319715728000)/",
+    "TripActivityName": "sitBERN",
+    "Id": "Id 5",
+    "Purpose": "Purpose 5",
+    "Departure": "/Date(1014208928000)/",
+    "Arrival": "/Date(1456058528000)/",
+    "Location": "Location 5",
+    "CountryCode": "CountryCode 5",
+    "CountryName": "CountryName 5",
+    "RequesterFirstName": "RequesterFirstName 5",
+    "Note": "Note 5",
+    "Status": "Status 5",
+    "RequesterLastName": "RequesterLastName 5",
+    "WorkItemID": "WorkItemID 5",
+    "PersonalNumber": 1653,
+    "__metadata": {
+      "uri": "Travels('WorkItemID%205')",
+      "type": "SRA009_SRV.Travel"
+    },
+    "CostAssignments": {
+      "__deferred": {
+        "uri": "Travels('WorkItemID%205')/CostAssignments"
+      }
+    },
+    "TravelHistory": {
+      "__deferred": {
+        "uri": "Travels('WorkItemID%205')/TravelHistory"
+      }
+    }
+  },
+  {
+    "EstimatedCost": {
+      "Currency": "EUR",
+      "Value": 5.50
+    },
+    "LastChangeDate": "/Date(1210592528000)/",
+    "TripActivityName": "Eis essen",
+    "Id": "Id 6",
+    "Purpose": "Purpose 6",
+    "Departure": "/Date(1411299728000)/",
+    "Arrival": "/Date(1066736528000)/",
+    "Location": "Location 6",
+    "CountryCode": "CountryCode 6",
+    "CountryName": "CountryName 6",
+    "RequesterFirstName": "RequesterFirstName 6",
+    "Note": "Note 6",
+    "Status": "Status 6",
+    "RequesterLastName": "RequesterLastName 6",
+    "WorkItemID": "WorkItemID 6",
+    "PersonalNumber": 3914,
+    "__metadata": {
+      "uri": "Travels('WorkItemID%206')",
+      "type": "SRA009_SRV.Travel"
+    },
+    "CostAssignments": {
+      "__deferred": {
+        "uri": "Travels('WorkItemID%206')/CostAssignments"
+      }
+    },
+    "TravelHistory": {
+      "__deferred": {
+        "uri": "Travels('WorkItemID%206')/TravelHistory"
+      }
+    }
+  },
+  {
+    "EstimatedCost": {
+      "Currency": "EUR",
+      "Value": 2777.92
+    },
+    "LastChangeDate": "/Date(1140871328000)/",
+    "TripActivityName": "Business Trip",
+    "Id": "Id 7",
+    "Purpose": "Purpose 7",
+    "Departure": "/Date(1237293728000)/",
+    "Arrival": "/Date(1262349728000)/",
+    "Location": "Location 7",
+    "CountryCode": "CountryCode 7",
+    "CountryName": "CountryName 7",
+    "RequesterFirstName": "RequesterFirstName 7",
+    "Note": "Note 7",
+    "Status": "Status 7",
+    "RequesterLastName": "RequesterLastName 7",
+    "WorkItemID": "WorkItemID 7",
+    "PersonalNumber": 1885,
+    "__metadata": {
+      "uri": "Travels('WorkItemID%207')",
+      "type": "SRA009_SRV.Travel"
+    },
+    "CostAssignments": {
+      "__deferred": {
+        "uri": "Travels('WorkItemID%207')/CostAssignments"
+      }
+    },
+    "TravelHistory": {
+      "__deferred": {
+        "uri": "Travels('WorkItemID%207')/TravelHistory"
+      }
+    }
+  },
+  {
+    "EstimatedCost": {
+      "Currency": "EUR",
+      "Value": 9230.06
+    },
+    "LastChangeDate": "/Date(1103719328000)/",
+    "TripActivityName": "Business Trip",
+    "Id": "Id 8",
+    "Purpose": "Purpose 8",
+    "Departure": "/Date(1496230928000)/",
+    "Arrival": "/Date(1488026528000)/",
+    "Location": "Location 8",
+    "CountryCode": "CountryCode 8",
+    "CountryName": "CountryName 8",
+    "RequesterFirstName": "RequesterFirstName 8",
+    "Note": "Note 8",
+    "Status": "Status 8",
+    "RequesterLastName": "RequesterLastName 8",
+    "WorkItemID": "WorkItemID 8",
+    "PersonalNumber": 7792,
+    "__metadata": {
+      "uri": "Travels('WorkItemID%208')",
+      "type": "SRA009_SRV.Travel"
+    },
+    "CostAssignments": {
+      "__deferred": {
+        "uri": "Travels('WorkItemID%208')/CostAssignments"
+      }
+    },
+    "TravelHistory": {
+      "__deferred": {
+        "uri": "Travels('WorkItemID%208')/TravelHistory"
+      }
+    }
+  },
+  {
+    "EstimatedCost": {
+      "Currency": "EUR",
+      "Value": 4667.41
+    },
+    "LastChangeDate": "/Date(1119094928000)/",
+    "TripActivityName": "Business Trip",
+    "Id": "Id 9",
+    "Purpose": "Purpose 9",
+    "Departure": "/Date(955539728000)/",
+    "Arrival": "/Date(1326804128000)/",
+    "Location": "Location 9",
+    "CountryCode": "CountryCode 9",
+    "CountryName": "CountryName 9",
+    "RequesterFirstName": "RequesterFirstName 9",
+    "Note": "Note 9",
+    "Status": "Status 9",
+    "RequesterLastName": "RequesterLastName 9",
+    "WorkItemID": "WorkItemID 9",
+    "PersonalNumber": 5343,
+    "__metadata": {
+      "uri": "Travels('WorkItemID%209')",
+      "type": "SRA009_SRV.Travel"
+    },
+    "CostAssignments": {
+      "__deferred": {
+        "uri": "Travels('WorkItemID%209')/CostAssignments"
+      }
+    },
+    "TravelHistory": {
+      "__deferred": {
+        "uri": "Travels('WorkItemID%209')/TravelHistory"
+      }
+    }
+  },
+  {
+    "EstimatedCost": {
+      "Currency": "EUR",
+      "Value": 1850.04
+    },
+    "LastChangeDate": "/Date(954157328000)/",
+    "TripActivityName": "Business Trip",
+    "Id": "Id 10",
+    "Purpose": "Purpose 10",
+    "Departure": "/Date(1424176928000)/",
+    "Arrival": "/Date(1105274528000)/",
+    "Location": "Location 10",
+    "CountryCode": "CountryCode 10",
+    "CountryName": "CountryName 10",
+    "RequesterFirstName": "RequesterFirstName 10",
+    "Note": "Note 10",
+    "Status": "Status 10",
+    "RequesterLastName": "RequesterLastName 10",
+    "WorkItemID": "WorkItemID 10",
+    "PersonalNumber": 6866,
+    "__metadata": {
+      "uri": "Travels('WorkItemID%2010')",
+      "type": "SRA009_SRV.Travel"
+    },
+    "CostAssignments": {
+      "__deferred": {
+        "uri": "Travels('WorkItemID%2010')/CostAssignments"
+      }
+    },
+    "TravelHistory": {
+      "__deferred": {
+        "uri": "Travels('WorkItemID%2010')/TravelHistory"
+      }
+    }
+  }
+]

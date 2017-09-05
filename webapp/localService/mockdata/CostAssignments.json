@@ -1,0 +1,132 @@
+[
+  {
+    "CostObjectItemId": "CostObjectItemId 1",
+    "Id": "Id 1",
+    "Order": "Order 1",
+    "Percentage": 6678.97,
+    "CostObjectId": "CostObjectId 1",
+    "CostObjectType": "CostObjectType 1",
+    "CostObjectName": "CostObjectName 1",
+    "__metadata": {
+      "uri": "CostAssignments(Id='Id%201',CostObjectId='CostObjectId%201',CostObjectType='CostObjectType%201')",
+      "type": "SRA009_SRV.CostAssignment"
+    }
+  },
+  {
+    "CostObjectItemId": "CostObjectItemId 2",
+    "Id": "Id 2",
+    "Order": "Order 2",
+    "Percentage": 9180.51,
+    "CostObjectId": "CostObjectId 2",
+    "CostObjectType": "CostObjectType 2",
+    "CostObjectName": "CostObjectName 2",
+    "__metadata": {
+      "uri": "CostAssignments(Id='Id%202',CostObjectId='CostObjectId%202',CostObjectType='CostObjectType%202')",
+      "type": "SRA009_SRV.CostAssignment"
+    }
+  },
+  {
+    "CostObjectItemId": "CostObjectItemId 3",
+    "Id": "Id 3",
+    "Order": "Order 3",
+    "Percentage": 2118.26,
+    "CostObjectId": "CostObjectId 3",
+    "CostObjectType": "CostObjectType 3",
+    "CostObjectName": "CostObjectName 3",
+    "__metadata": {
+      "uri": "CostAssignments(Id='Id%203',CostObjectId='CostObjectId%203',CostObjectType='CostObjectType%203')",
+      "type": "SRA009_SRV.CostAssignment"
+    }
+  },
+  {
+    "CostObjectItemId": "CostObjectItemId 4",
+    "Id": "Id 4",
+    "Order": "Order 4",
+    "Percentage": 2737.43,
+    "CostObjectId": "CostObjectId 4",
+    "CostObjectType": "CostObjectType 4",
+    "CostObjectName": "CostObjectName 4",
+    "__metadata": {
+      "uri": "CostAssignments(Id='Id%204',CostObjectId='CostObjectId%204',CostObjectType='CostObjectType%204')",
+      "type": "SRA009_SRV.CostAssignment"
+    }
+  },
+  {
+    "CostObjectItemId": "CostObjectItemId 5",
+    "Id": "Id 5",
+    "Order": "Order 5",
+    "Percentage": 5899.75,
+    "CostObjectId": "CostObjectId 5",
+    "CostObjectType": "CostObjectType 5",
+    "CostObjectName": "CostObjectName 5",
+    "__metadata": {
+      "uri": "CostAssignments(Id='Id%205',CostObjectId='CostObjectId%205',CostObjectType='CostObjectType%205')",
+      "type": "SRA009_SRV.CostAssignment"
+    }
+  },
+  {
+    "CostObjectItemId": "CostObjectItemId 6",
+    "Id": "Id 6",
+    "Order": "Order 6",
+    "Percentage": 8305.38,
+    "CostObjectId": "CostObjectId 6",
+    "CostObjectType": "CostObjectType 6",
+    "CostObjectName": "CostObjectName 6",
+    "__metadata": {
+      "uri": "CostAssignments(Id='Id%206',CostObjectId='CostObjectId%206',CostObjectType='CostObjectType%206')",
+      "type": "SRA009_SRV.CostAssignment"
+    }
+  },
+  {
+    "CostObjectItemId": "CostObjectItemId 7",
+    "Id": "Id 7",
+    "Order": "Order 7",
+    "Percentage": 2908.51,
+    "CostObjectId": "CostObjectId 7",
+    "CostObjectType": "CostObjectType 7",
+    "CostObjectName": "CostObjectName 7",
+    "__metadata": {
+      "uri": "CostAssignments(Id='Id%207',CostObjectId='CostObjectId%207',CostObjectType='CostObjectType%207')",
+      "type": "SRA009_SRV.CostAssignment"
+    }
+  },
+  {
+    "CostObjectItemId": "CostObjectItemId 8",
+    "Id": "Id 8",
+    "Order": "Order 8",
+    "Percentage": 233.23,
+    "CostObjectId": "CostObjectId 8",
+    "CostObjectType": "CostObjectType 8",
+    "CostObjectName": "CostObjectName 8",
+    "__metadata": {
+      "uri": "CostAssignments(Id='Id%208',CostObjectId='CostObjectId%208',CostObjectType='CostObjectType%208')",
+      "type": "SRA009_SRV.CostAssignment"
+    }
+  },
+  {
+    "CostObjectItemId": "CostObjectItemId 9",
+    "Id": "Id 9",
+    "Order": "Order 9",
+    "Percentage": 5190.77,
+    "CostObjectId": "CostObjectId 9",
+    "CostObjectType": "CostObjectType 9",
+    "CostObjectName": "CostObjectName 9",
+    "__metadata": {
+      "uri": "CostAssignments(Id='Id%209',CostObjectId='CostObjectId%209',CostObjectType='CostObjectType%209')",
+      "type": "SRA009_SRV.CostAssignment"
+    }
+  },
+  {
+    "CostObjectItemId": "CostObjectItemId 10",
+    "Id": "Id 10",
+    "Order": "Order 10",
+    "Percentage": 9730.1,
+    "CostObjectId": "CostObjectId 10",
+    "CostObjectType": "CostObjectType 10",
+    "CostObjectName": "CostObjectName 10",
+    "__metadata": {
+      "uri": "CostAssignments(Id='Id%2010',CostObjectId='CostObjectId%2010',CostObjectType='CostObjectType%2010')",
+      "type": "SRA009_SRV.CostAssignment"
+    }
+  }
+]

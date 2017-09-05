@@ -1,0 +1,56 @@
+<edmx:Edmx Version="1.0"
+           xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx"
+           xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"
+           xmlns:sap="http://www.sap.com/Protocols/SAPData">
+    <edmx:DataServices m:DataServiceVersion="2.0">
+        <Schema Namespace="UI_Testing" xml:lang="en"
+                xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+            <EntityType Name="Travel" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="WorkItemID"/>
+                </Key>
+                <Property Name="EstimatedCost" Type="UI_Testing.Amount" Nullable="false"/>
+                <Property Name="LastChangeDate" Type="Edm.DateTime" Nullable="false" Precision="7"
+                          sap:label="LastChangeDate" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+                          sap:filterable="false"/>
+                <Property Name="TripActivityName" Type="Edm.String" Nullable="false" MaxLength="30"
+                          sap:label="TripActivityName" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+                          sap:filterable="false"/>
+                <Property Name="Id" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Id"
+                          sap:creatable="false" sap:updatable="false" sap:sortable="false"/>
+                <Property Name="Purpose" Type="Edm.String" MaxLength="59" m:FC_TargetPath="SyndicationTitle"
+                          m:FC_KeepInContent="true" sap:label="Purpose" sap:creatable="false" sap:updatable="false"
+                          sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Departure" Type="Edm.DateTime" Nullable="false" Precision="7" sap:label="Departure"
+                          sap:creatable="false" sap:updatable="false" sap:sortable="false"/>
+                <Property Name="Arrival" Type="Edm.DateTime" Nullable="false" Precision="7" sap:label="Arrival"
+                          sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Location" Type="Edm.String" Nullable="false" MaxLength="59" sap:label="Location"
+                          sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="CountryCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="CountryCode"
+                          sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="CountryName" Type="Edm.String" Nullable="false" sap:label="CountryName"
+                          sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="RequesterFirstName" Type="Edm.String" Nullable="false" sap:label="RequesterFirstName"
+                          sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Note" Type="Edm.String" Nullable="false" sap:label="Note" sap:creatable="false"
+                          sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Status" Type="Edm.String" Nullable="false" sap:label="Status" sap:creatable="false"
+                          sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="RequesterLastName" Type="Edm.String" Nullable="false" sap:label="RequesterLastName"
+                          sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="WorkItemID" Type="Edm.String" Nullable="false" sap:label="WorkItemID"
+                          sap:sortable="false" sap:filterable="false"/>
+                <Property Name="PersonalNumber" Type="Edm.Int32" Nullable="false" sap:label="PersonalNumber"
+                          sap:creatable="false" sap:updatable="false" sap:sortable="false"/>
+            </EntityType>
+            <EntityContainer Name="UI_Testing" m:IsDefaultEntityContainer="true">
+                <EntitySet Name="Travels" EntityType="UI_Testing.Travel" sap:content-version="1"/>
+            </EntityContainer>
+            <atom:link rel="self" href="http://localhost:3000/sap/opu/odata/sap/UI_Testing/$metadata"
+                       xmlns:atom="http://www.w3.org/2005/Atom"/>
+            <atom:link rel="latest-version" href="http://localhost:3000/sap/opu/odata/sap/UI_Testing/$metadata"
+                       xmlns:atom="http://www.w3.org/2005/Atom"/>
+        </Schema>
+    </edmx:DataServices>
+</edmx:Edmx>

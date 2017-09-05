@@ -1,0 +1,9 @@
+build
+dist
+node_modules
+.tmp
+.idea
+npm-debug.log
+
+backstop/*
+!backstop/bitmaps_reference

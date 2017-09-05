@@ -1,0 +1,142 @@
+[
+  {
+    "Id": "Id 1",
+    "Email": "Email 1",
+    "Department": "Department 1",
+    "Company": "Company 1",
+    "Address": "Address 1",
+    "Phone": "Phone 1",
+    "Name": "Name 1",
+    "Mobile": "Mobile 1",
+    "__metadata": {
+      "uri": "Contacts('Id%201')",
+      "type": "SRA009_SRV.Contact"
+    }
+  },
+  {
+    "Id": "Id 2",
+    "Email": "Email 2",
+    "Department": "Department 2",
+    "Company": "Company 2",
+    "Address": "Address 2",
+    "Phone": "Phone 2",
+    "Name": "Name 2",
+    "Mobile": "Mobile 2",
+    "__metadata": {
+      "uri": "Contacts('Id%202')",
+      "type": "SRA009_SRV.Contact"
+    }
+  },
+  {
+    "Id": "Id 3",
+    "Email": "Email 3",
+    "Department": "Department 3",
+    "Company": "Company 3",
+    "Address": "Address 3",
+    "Phone": "Phone 3",
+    "Name": "Name 3",
+    "Mobile": "Mobile 3",
+    "__metadata": {
+      "uri": "Contacts('Id%203')",
+      "type": "SRA009_SRV.Contact"
+    }
+  },
+  {
+    "Id": "Id 4",
+    "Email": "Email 4",
+    "Department": "Department 4",
+    "Company": "Company 4",
+    "Address": "Address 4",
+    "Phone": "Phone 4",
+    "Name": "Name 4",
+    "Mobile": "Mobile 4",
+    "__metadata": {
+      "uri": "Contacts('Id%204')",
+      "type": "SRA009_SRV.Contact"
+    }
+  },
+  {
+    "Id": "Id 5",
+    "Email": "Email 5",
+    "Department": "Department 5",
+    "Company": "Company 5",
+    "Address": "Address 5",
+    "Phone": "Phone 5",
+    "Name": "Name 5",
+    "Mobile": "Mobile 5",
+    "__metadata": {
+      "uri": "Contacts('Id%205')",
+      "type": "SRA009_SRV.Contact"
+    }
+  },
+  {
+    "Id": "Id 6",
+    "Email": "Email 6",
+    "Department": "Department 6",
+    "Company": "Company 6",
+    "Address": "Address 6",
+    "Phone": "Phone 6",
+    "Name": "Name 6",
+    "Mobile": "Mobile 6",
+    "__metadata": {
+      "uri": "Contacts('Id%206')",
+      "type": "SRA009_SRV.Contact"
+    }
+  },
+  {
+    "Id": "Id 7",
+    "Email": "Email 7",
+    "Department": "Department 7",
+    "Company": "Company 7",
+    "Address": "Address 7",
+    "Phone": "Phone 7",
+    "Name": "Name 7",
+    "Mobile": "Mobile 7",
+    "__metadata": {
+      "uri": "Contacts('Id%207')",
+      "type": "SRA009_SRV.Contact"
+    }
+  },
+  {
+    "Id": "Id 8",
+    "Email": "Email 8",
+    "Department": "Department 8",
+    "Company": "Company 8",
+    "Address": "Address 8",
+    "Phone": "Phone 8",
+    "Name": "Name 8",
+    "Mobile": "Mobile 8",
+    "__metadata": {
+      "uri": "Contacts('Id%208')",
+      "type": "SRA009_SRV.Contact"
+    }
+  },
+  {
+    "Id": "Id 9",
+    "Email": "Email 9",
+    "Department": "Department 9",
+    "Company": "Company 9",
+    "Address": "Address 9",
+    "Phone": "Phone 9",
+    "Name": "Name 9",
+    "Mobile": "Mobile 9",
+    "__metadata": {
+      "uri": "Contacts('Id%209')",
+      "type": "SRA009_SRV.Contact"
+    }
+  },
+  {
+    "Id": "Id 10",
+    "Email": "Email 10",
+    "Department": "Department 10",
+    "Company": "Company 10",
+    "Address": "Address 10",
+    "Phone": "Phone 10",
+    "Name": "Name 10",
+    "Mobile": "Mobile 10",
+    "__metadata": {
+      "uri": "Contacts('Id%2010')",
+      "type": "SRA009_SRV.Contact"
+    }
+  }
+]
