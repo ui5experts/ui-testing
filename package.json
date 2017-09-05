@@ -10,6 +10,7 @@
   "devDependencies": {
     "karma": "^1.7.1",
     "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage": "^1.1.1",
     "karma-openui5": "^0.2.2",
     "karma-qunit": "^1.2.1",
     "qunitjs": "^2.4.0"
