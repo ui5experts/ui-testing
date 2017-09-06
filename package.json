@@ -4,7 +4,10 @@
   "description": "SAPUI5 User Interface Testing - Example SAPUI5 application demonstrating the use of QUnit, OPA5, karma and BackstopJS.",
   "main": "server.js",
   "scripts": {
-    "test": "karma start --single-run --browsers ChromeHeadless",
+    "test": "npm run -s backstop && npm run -s karma",
+    "backstop": "node backstop.js",
+    "backstop-approve": "backstop approve",
+    "karma": "karma start --single-run --browsers ChromeHeadless",
     "tdd": "karma start"
   },
   "keywords": [
