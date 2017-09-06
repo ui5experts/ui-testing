@@ -1,13 +1,32 @@
 {
   "name": "ui-testing",
   "version": "1.0.0",
-  "description": "This is your copy of the SAPUI5 Master-Detail Freestyle Application Template. You can find the template version in the .project.json - file in your workspace",
+  "description": "SAPUI5 User Interface Testing - Example SAPUI5 application demonstrating the use of QUnit, OPA5, karma and BackstopJS.",
   "main": "server.js",
-  "dependencies": {
-    "http-proxy-middleware": "^0.17.4",
-    "express": "^4.15.4"
+  "scripts": {
+    "test": "karma start --single-run --browsers ChromeHeadless",
+    "tdd": "karma start"
   },
+  "keywords": [
+    "SAPUI5",
+    "OpenUI5",
+    "QUnit",
+    "OPA5",
+    "karma",
+    "BackstopJS",
+    "Testing",
+    "JavaScript",
+    "Node.js"
+  ],
+  "author": {
+    "name": "Christian Schuff",
+    "email": "christian.schuff@ui5experts.com",
+    "url": "http://www.ui5experts.com"
+  },
+  "dependencies": {},
   "devDependencies": {
+    "http-proxy-middleware": "^0.17.4",
+    "express": "^4.15.4",
     "karma": "^1.7.1",
     "karma-chrome-launcher": "^2.2.0",
     "karma-coverage": "^1.1.1",
@@ -17,10 +36,5 @@
     "puppeteer": "^0.10.2",
     "qunitjs": "^2.4.0"
   },
-  "scripts": {
-    "test": "karma start --single-run --browsers ChromeHeadless",
-    "tdd": "karma start"
-  },
-  "author": "",
-  "license": "ISC"
+  "license": "MIT"
 }
