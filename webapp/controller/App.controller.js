@@ -1,42 +1,41 @@
 sap.ui.define([
-    "ui5experts/ui-testing/controller/BaseController",
-    "sap/ui/model/json/JSONModel"
-  ], function (BaseController, JSONModel) {
-    "use strict";
+  "ui5experts/ui-testing/controller/BaseController",
+  "sap/ui/model/json/JSONModel"
+], function (BaseController, JSONModel) {
+  "use strict";
 
-    return BaseController.extend("ui5experts.ui-testing.controller.App", {
+  return BaseController.extend("ui5experts.ui-testing.controller.App", {
 
-      onInit: function () {
-        var oViewModel,
-          fnSetAppNotBusy,
-          oListSelector = this.getOwnerComponent().oListSelector,
-          iOriginalBusyDelay = this.getView().getBusyIndicatorDelay();
+    onInit: function () {
+      var oViewModel,
+        fnSetAppNotBusy,
+        oListSelector = this.getOwnerComponent().oListSelector,
+        iOriginalBusyDelay = this.getView().getBusyIndicatorDelay();
 
-        oViewModel = new JSONModel({
-          busy: true,
-          delay: 0
-        });
-        this.setModel(oViewModel, "appView");
+      oViewModel = new JSONModel({
+        busy: true,
+        delay: 0
+      });
+      this.setModel(oViewModel, "appView");
 
-        fnSetAppNotBusy = function () {
-          oViewModel.setProperty("/busy", false);
-          oViewModel.setProperty("/delay", iOriginalBusyDelay);
-        };
+      fnSetAppNotBusy = function () {
+        oViewModel.setProperty("/busy", false);
+        oViewModel.setProperty("/delay", iOriginalBusyDelay);
+      };
 
-        this.getOwnerComponent().getModel().metadataLoaded()
-          .then(fnSetAppNotBusy);
+      this.getOwnerComponent().getModel().metadataLoaded()
+        .then(fnSetAppNotBusy);
 
-        // Makes sure that master view is hidden in split app
-        // after a new list entry has been selected.
-        oListSelector.attachListSelectionChange(function () {
-          this.byId("idAppControl").hideMaster();
-        }, this);
+      // Makes sure that master view is hidden in split app
+      // after a new list entry has been selected.
+      oListSelector.attachListSelectionChange(function () {
+        this.byId("idAppControl").hideMaster();
+      }, this);
 
-        // apply content density mode to root view
-        this.getView().addStyleClass(this.getOwnerComponent().getContentDensityClass());
-      }
+      // apply content density mode to root view
+      this.getView().addStyleClass(this.getOwnerComponent().getContentDensityClass());
+    }
 
-    });
+  });
 
-  }
-);
+});
