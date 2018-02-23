@@ -1,0 +1,352 @@
+[
+  {
+    "EstimatedCost": {
+      "Currency": "EUR",
+      "Value": "1299.99"
+    },
+    "LastChangeDate": "/Date(1327063328000)/",
+    "TripActivityName": "Customer Visit",
+    "Id": "123123",
+    "Purpose": "Customer Visit",
+    "Departure": "/Date(1365939728000)/",
+    "Arrival": "/Date(1035286928000)/",
+    "Location": "Dietmar-Hopp-Allee 16, 69190 Walldorf",
+    "CountryCode": "DE",
+    "CountryName": "Germany",
+    "RequesterFirstName": "Brett",
+    "Note": "We had a customer visit in Walldorf. Travel cost was slightly higher due to urgency of the trip.",
+    "Status": "Pending",
+    "RequesterLastName": "Pitt",
+    "WorkItemID": "7725261",
+    "PersonalNumber": 9527,
+    "__metadata": {
+      "uri": "Travels('7725261')",
+      "type": "SRA009_SRV.Travel"
+    },
+    "CostAssignments": {
+      "__deferred": {
+        "uri": "Travels('7725261')/CostAssignments"
+      }
+    },
+    "TravelHistory": {
+      "__deferred": {
+        "uri": "Travels('7725261')/TravelHistory"
+      }
+    }
+  },
+  {
+    "EstimatedCost": {
+      "Currency": "EUR",
+      "Value": "2799.00"
+    },
+    "LastChangeDate": "/Date(1370691728000)/",
+    "TripActivityName": "China",
+    "Id": "Id 2",
+    "Purpose": "Purpose 2",
+    "Departure": "/Date(995542928000)/",
+    "Arrival": "/Date(1047645728000)/",
+    "Location": "Dietmar-Hopp-Allee 16, 69190 Walldorf",
+    "CountryCode": "DE",
+    "CountryName": "Germany",
+    "RequesterFirstName": "Georg",
+    "Note": "NLorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "Status": "Approved",
+    "RequesterLastName": "Lucas",
+    "WorkItemID": "1768492",
+    "PersonalNumber": 4888,
+    "__metadata": {
+      "uri": "Travels('1768492')",
+      "type": "SRA009_SRV.Travel"
+    },
+    "CostAssignments": {
+      "__deferred": {
+        "uri": "Travels('1768492')/CostAssignments"
+      }
+    },
+    "TravelHistory": {
+      "__deferred": {
+        "uri": "Travels('1768492')/TravelHistory"
+      }
+    }
+  },
+  {
+    "EstimatedCost": {
+      "Currency": "EUR",
+      "Value": "17042.14"
+    },
+    "LastChangeDate": "/Date(998826128000)/",
+    "TripActivityName": "Going to Ibiza",
+    "Id": "Id 3",
+    "Purpose": "Purpose 3",
+    "Departure": "/Date(1568720528000)/",
+    "Arrival": "/Date(1448196128000)/",
+    "Location": "35 rue d'Alsace, 92300 Levallois-Perret",
+    "CountryCode": "FR",
+    "CountryName": "France",
+    "RequesterFirstName": "Wilma",
+    "Note": "Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "Status": "Rejected",
+    "RequesterLastName": "Feuerstein",
+    "WorkItemID": "0182933",
+    "PersonalNumber": 6901,
+    "__metadata": {
+      "uri": "Travels('0182933')",
+      "type": "SRA009_SRV.Travel"
+    },
+    "CostAssignments": {
+      "__deferred": {
+        "uri": "Travels('0182933')/CostAssignments"
+      }
+    },
+    "TravelHistory": {
+      "__deferred": {
+        "uri": "Travels('0182933')/TravelHistory"
+      }
+    }
+  },
+  {
+    "EstimatedCost": {
+      "Currency": "EUR",
+      "Value": "1869.81"
+    },
+    "LastChangeDate": "/Date(1272022928000)/",
+    "TripActivityName": "Hawaii Incentive",
+    "Id": "Id 4",
+    "Purpose": "Purpose 4",
+    "Departure": "/Date(952260128000)/",
+    "Arrival": "/Date(1238244128000)/",
+    "Location": "Sarjapur-Marathahalli Outer Ring Road, Devarabeesanahalli, Bangalore - 560 103",
+    "CountryCode": "IN",
+    "CountryName": "India",
+    "RequesterFirstName": "Fred",
+    "Note": "Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "Status": "Approved",
+    "RequesterLastName": "Feuerstein",
+    "WorkItemID": "0182934",
+    "PersonalNumber": 245,
+    "__metadata": {
+      "uri": "Travels('0182934')",
+      "type": "SRA009_SRV.Travel"
+    },
+    "CostAssignments": {
+      "__deferred": {
+        "uri": "Travels('0182934')/CostAssignments"
+      }
+    },
+    "TravelHistory": {
+      "__deferred": {
+        "uri": "Travels('0182934')/TravelHistory"
+      }
+    }
+  },
+  {
+    "EstimatedCost": {
+      "Currency": "USD",
+      "Value": "478.61"
+    },
+    "LastChangeDate": "/Date(1319715728000)/",
+    "TripActivityName": "sitBERN",
+    "Id": "Id 5",
+    "Purpose": "Purpose 5",
+    "Departure": "/Date(1014208928000)/",
+    "Arrival": "/Date(1456058528000)/",
+    "Location": "3410 Hillview Avenue, Palo Alto, CA 94304",
+    "CountryCode": "US",
+    "CountryName": "United States of America",
+    "RequesterFirstName": "Paul",
+    "Note": "Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.",
+    "Status": "Pending",
+    "RequesterLastName": "Panther",
+    "WorkItemID": "9928701",
+    "PersonalNumber": 1653,
+    "__metadata": {
+      "uri": "Travels('9928701')",
+      "type": "SRA009_SRV.Travel"
+    },
+    "CostAssignments": {
+      "__deferred": {
+        "uri": "Travels('9928701')/CostAssignments"
+      }
+    },
+    "TravelHistory": {
+      "__deferred": {
+        "uri": "Travels('9928701')/TravelHistory"
+      }
+    }
+  },
+  {
+    "EstimatedCost": {
+      "Currency": "USD",
+      "Value": "1235.50"
+    },
+    "LastChangeDate": "/Date(1210592528000)/",
+    "TripActivityName": "Eis essen",
+    "Id": "Id 6",
+    "Purpose": "Purpose 6",
+    "Departure": "/Date(1411299728000)/",
+    "Arrival": "/Date(1066736528000)/",
+    "Location": "3410 Hillview Avenue, Palo Alto, CA 94304",
+    "CountryCode": "US",
+    "CountryName": "United States of America",
+    "RequesterFirstName": "Peter",
+    "Note": "Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.",
+    "Status": "Rejected",
+    "RequesterLastName": "Lustig",
+    "WorkItemID": "1126622",
+    "PersonalNumber": 3914,
+    "__metadata": {
+      "uri": "Travels('1126622')",
+      "type": "SRA009_SRV.Travel"
+    },
+    "CostAssignments": {
+      "__deferred": {
+        "uri": "Travels('1126622')/CostAssignments"
+      }
+    },
+    "TravelHistory": {
+      "__deferred": {
+        "uri": "Travels('1126622')/TravelHistory"
+      }
+    }
+  },
+  {
+    "EstimatedCost": {
+      "Currency": "EUR",
+      "Value": "2777.92"
+    },
+    "LastChangeDate": "/Date(1140871328000)/",
+    "TripActivityName": "Business Trip",
+    "Id": "Id 7",
+    "Purpose": "Purpose 7",
+    "Departure": "/Date(1237293728000)/",
+    "Arrival": "/Date(1262349728000)/",
+    "Location": "Sarjapur-Marathahalli Outer Ring Road, Devarabeesanahalli, Bangalore - 560 103",
+    "CountryCode": "IN",
+    "CountryName": "India",
+    "RequesterFirstName": "Hans",
+    "Note": "Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.",
+    "Status": "Pending",
+    "RequesterLastName": "Wurst",
+    "WorkItemID": "5166245",
+    "PersonalNumber": 1885,
+    "__metadata": {
+      "uri": "Travels('5166245')",
+      "type": "SRA009_SRV.Travel"
+    },
+    "CostAssignments": {
+      "__deferred": {
+        "uri": "Travels('5166245')/CostAssignments"
+      }
+    },
+    "TravelHistory": {
+      "__deferred": {
+        "uri": "Travels('5166245')/TravelHistory"
+      }
+    }
+  },
+  {
+    "EstimatedCost": {
+      "Currency": "EUR",
+      "Value": "9230.06"
+    },
+    "LastChangeDate": "/Date(1103719328000)/",
+    "TripActivityName": "Business Trip",
+    "Id": "Id 8",
+    "Purpose": "Purpose 8",
+    "Departure": "/Date(1496230928000)/",
+    "Arrival": "/Date(1488026528000)/",
+    "Location": "1 Ho Chi Minh Sarani, Kolkata - 700 071",
+    "CountryCode": "IN",
+    "CountryName": "India",
+    "RequesterFirstName": "Max",
+    "Note": "as usual",
+    "Status": "Approved",
+    "RequesterLastName": "Power",
+    "WorkItemID": "7726398",
+    "PersonalNumber": 7792,
+    "__metadata": {
+      "uri": "Travels('7726398')",
+      "type": "SRA009_SRV.Travel"
+    },
+    "CostAssignments": {
+      "__deferred": {
+        "uri": "Travels('7726398')/CostAssignments"
+      }
+    },
+    "TravelHistory": {
+      "__deferred": {
+        "uri": "Travels('7726398')/TravelHistory"
+      }
+    }
+  },
+  {
+    "EstimatedCost": {
+      "Currency": "EUR",
+      "Value": "4667.41"
+    },
+    "LastChangeDate": "/Date(1119094928000)/",
+    "TripActivityName": "Business Trip",
+    "Id": "Id 9",
+    "Purpose": "Purpose 9",
+    "Departure": "/Date(955539728000)/",
+    "Arrival": "/Date(1326804128000)/",
+    "Location": "c/. Josep Pla, 2, E-08019 BARCELONA",
+    "CountryCode": "ES",
+    "CountryName": "Spain",
+    "RequesterFirstName": "Schorsch",
+    "Note": "",
+    "Status": "Approved",
+    "RequesterLastName": "González",
+    "WorkItemID": "6762991",
+    "PersonalNumber": 5343,
+    "__metadata": {
+      "uri": "Travels('6762991')",
+      "type": "SRA009_SRV.Travel"
+    },
+    "CostAssignments": {
+      "__deferred": {
+        "uri": "Travels('6762991')/CostAssignments"
+      }
+    },
+    "TravelHistory": {
+      "__deferred": {
+        "uri": "Travels('6762991')/TravelHistory"
+      }
+    }
+  },
+  {
+    "EstimatedCost": {
+      "Currency": "EUR",
+      "Value": "1850.04"
+    },
+    "LastChangeDate": "/Date(954157328000)/",
+    "TripActivityName": "Business Trip",
+    "Id": "Id 10",
+    "Purpose": "Purpose 10",
+    "Departure": "/Date(1424176928000)/",
+    "Arrival": "/Date(1105274528000)/",
+    "Location": "Hasso-Plattner-Ring 7, 69190 Walldorf",
+    "CountryCode": "DE",
+    "CountryName": "Germany",
+    "RequesterFirstName": "Paul",
+    "Note": "",
+    "Status": "Rejected",
+    "RequesterLastName": "Green",
+    "WorkItemID": "1299382",
+    "PersonalNumber": 6866,
+    "__metadata": {
+      "uri": "Travels('1299382')",
+      "type": "SRA009_SRV.Travel"
+    },
+    "CostAssignments": {
+      "__deferred": {
+        "uri": "Travels('1299382')/CostAssignments"
+      }
+    },
+    "TravelHistory": {
+      "__deferred": {
+        "uri": "Travels('1299382')/TravelHistory"
+      }
+    }
+  }
+]

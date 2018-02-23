@@ -1,0 +1,43 @@
+{
+  "name": "ui-testing",
+  "version": "0.0.1",
+  "description": "Example SAPUI5 application demonstrating the use of QUnit, OPA5, karma and Backstop.JS (sitFRA 2018)",
+  "main": "server.js",
+  "scripts": {
+    "test": "karma start --single-run --browsers ChromeHeadless",
+    "tdd": "karma start",
+    "backstop": "backstop test",
+    "backstop-approve": "backstop approve"
+  },
+  "keywords": [
+    "SAPUI5",
+    "OpenUI5",
+    "QUnit",
+    "OPA5",
+    "karma",
+    "BackstopJS",
+    "Testing",
+    "JavaScript",
+    "Node.js"
+  ],
+  "author": {
+    "name": "Christian Schuff",
+    "email": "christian.schuff@ui5experts.com",
+    "url": "http://www.ui5experts.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "backstopjs": "^3.0.24",
+    "express": "^4.15.4",
+    "gulp": "^3.9.1",
+    "karma": "^1.7.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage": "^1.1.1",
+    "karma-junit-reporter": "^1.2.0",
+    "karma-openui5": "^0.2.2",
+    "karma-qunit": "^1.2.1",
+    "proxy-middleware": "^0.15.0",
+    "puppeteer": "^0.10.2",
+    "qunitjs": "^2.4.0"
+  }
+}
