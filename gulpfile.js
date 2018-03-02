@@ -10,15 +10,17 @@ gulp.task('backstop:approve', (cb) => {
   cb();
 });
 
-gulp.task('backstop:test', () => {
+gulp.task('backstop:test', (cb) => {
   const server = require('./server');
-  return backstop('test', {
+  backstop('test', {
       config: backstopConfig
     })
     .then(() => {
       server.close();
+      cb();
     })
-    .catch(() => {
+    .catch((e) => {
       server.close();
+      cb(e);
     });
 });
