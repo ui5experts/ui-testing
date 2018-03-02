@@ -3,6 +3,7 @@ const url = require('url');
 const proxy = require('proxy-middleware');
 const app = express();
 
+
 const ui5Origin = 'https://sapui5.hana.ondemand.com/1.44.31';
 // const ui5Origin = 'https://openui5.hana.ondemand.com/1.44.31';
 // const ui5Origin = 'https://[BACKEND_HOST]:[BACKEND_PORT]/sap/public/bc/ui5_ui5/1.44';
@@ -14,20 +15,19 @@ const backend = 'https://[BACKEND_HOST]:[BACKEND_PORT]';
 app.use(express.static('webapp', { index: 'test.html' }));
 
 // proxy resources and test-resources from remote location
-let proxyOptions = url.parse(ui5Origin + '/resources'); 
+let proxyOptions = url.parse(`${ui5Origin}/resources`); 
 proxyOptions.cookieRewrite = true; 
 app.use('/resources', proxy(proxyOptions));  
 
-proxyOptions = url.parse(ui5Origin + '/test-resources'); 
+proxyOptions = url.parse(`${ui5Origin}/test-resources`); 
 proxyOptions.cookieRewrite = true; 
 app.use('/test-resources', proxy(proxyOptions));  
 
 // proxy backend
-proxyOptions = url.parse(backend + '/sap'); 
+proxyOptions = url.parse(`${backend}/sap`); 
 proxyOptions.cookieRewrite = true; 
 app.use('/sap', proxy(proxyOptions));
 
 // start server
-  app.listen(8000, function () { 
-  console.log('Express server listening on port 8000'); 
-}); 
+const port = 8000;
+module.exports =     app.listen(port, () => console.log(`Express server listening on port ${port}`));
