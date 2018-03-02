@@ -6,8 +6,8 @@
   "scripts": {
     "test": "karma start --single-run --browsers ChromeHeadless",
     "tdd": "karma start",
-    "backstop": "backstop test",
-    "backstop-approve": "backstop approve"
+    "backstop": "backstop test --config=./backstop.config.js",
+    "backstop-approve": "backstop approve --config=./backstop.config.js"
   },
   "keywords": [
     "SAPUI5",
