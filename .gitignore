@@ -5,6 +5,6 @@ node_modules
 .idea
 npm-debug.log
 
-SCRIPT.md
+./SCRIPT.md
 
 backstop/bitmaps_test

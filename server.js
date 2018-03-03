@@ -1,3 +1,5 @@
+// https://gist.github.com/cschuff/6f23b61622b41fdaa3c01623e530b845
+
 const express = require('express');
 const url = require('url');
 const proxy = require('proxy-middleware');
@@ -30,4 +32,6 @@ app.use('/sap', proxy(proxyOptions));
 
 // start server
 const port = 8000;
-module.exports =     app.listen(port, () => console.log(`Express server listening on port ${port}`));
+const server =     app.listen(port, () => console.log(`Express server listening on port ${port}`));
+
+module.exports = server;

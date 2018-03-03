@@ -1,3 +1,24 @@
+# Preparation
+
+* Clone project
+* open in WebStorm
+* set node_modules to ignored
+* install ui5-schemas
+
+
+# Introduction
+
+* Clone project from github
+
+`$ npm install`
+
+* SAP Web IDE Template
+* show test
+* show mock data
+* show server.js
+* show package.json and main script
+
+
 # Install
 
 `$ npm install`
