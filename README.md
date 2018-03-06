@@ -2,6 +2,7 @@
 
 [Slides](http://slides.com/christianschuff/a-different-approach-to-ui-testing#/)
 
+
 ## Project Template
 
 This demo application is based on the SAP Web IDE Template 'SAP Fiori Master-Detail Application' (see .project.json).
