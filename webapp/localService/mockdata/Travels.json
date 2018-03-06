@@ -2,7 +2,7 @@
   {
     "EstimatedCost": {
       "Currency": "EUR",
-      "Value": "1299.99"
+      "Value": 1299.99
     },
     "LastChangeDate": "/Date(1327063328000)/",
     "TripActivityName": "Customer Visit",
@@ -37,7 +37,7 @@
   {
     "EstimatedCost": {
       "Currency": "EUR",
-      "Value": "2799.00"
+      "Value": 2799.00
     },
     "LastChangeDate": "/Date(1370691728000)/",
     "TripActivityName": "China",
@@ -72,7 +72,7 @@
   {
     "EstimatedCost": {
       "Currency": "EUR",
-      "Value": "17042.14"
+      "Value": 17042.14
     },
     "LastChangeDate": "/Date(998826128000)/",
     "TripActivityName": "Going to Ibiza",
@@ -107,7 +107,7 @@
   {
     "EstimatedCost": {
       "Currency": "EUR",
-      "Value": "1869.81"
+      "Value": 1869.81
     },
     "LastChangeDate": "/Date(1272022928000)/",
     "TripActivityName": "Hawaii Incentive",
@@ -142,10 +142,10 @@
   {
     "EstimatedCost": {
       "Currency": "USD",
-      "Value": "478.61"
+      "Value": 478.61
     },
     "LastChangeDate": "/Date(1319715728000)/",
-    "TripActivityName": "sitBERN",
+    "TripActivityName": "sitFRA",
     "Id": "Id 5",
     "Purpose": "Purpose 5",
     "Departure": "/Date(1014208928000)/",
@@ -177,7 +177,7 @@
   {
     "EstimatedCost": {
       "Currency": "USD",
-      "Value": "1235.50"
+      "Value": 1235.50
     },
     "LastChangeDate": "/Date(1210592528000)/",
     "TripActivityName": "Eis essen",
@@ -212,7 +212,7 @@
   {
     "EstimatedCost": {
       "Currency": "EUR",
-      "Value": "2777.92"
+      "Value": 2777.92
     },
     "LastChangeDate": "/Date(1140871328000)/",
     "TripActivityName": "Business Trip",
@@ -247,7 +247,7 @@
   {
     "EstimatedCost": {
       "Currency": "EUR",
-      "Value": "9230.06"
+      "Value": 9230.06
     },
     "LastChangeDate": "/Date(1103719328000)/",
     "TripActivityName": "Business Trip",
@@ -282,7 +282,7 @@
   {
     "EstimatedCost": {
       "Currency": "EUR",
-      "Value": "4667.41"
+      "Value": 4667.41
     },
     "LastChangeDate": "/Date(1119094928000)/",
     "TripActivityName": "Business Trip",
@@ -317,7 +317,7 @@
   {
     "EstimatedCost": {
       "Currency": "EUR",
-      "Value": "1850.04"
+      "Value": 1850.04
     },
     "LastChangeDate": "/Date(954157328000)/",
     "TripActivityName": "Business Trip",

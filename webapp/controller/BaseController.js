@@ -5,6 +5,7 @@ sap.ui.define([
   "use strict";
 
   return Controller.extend("ui5experts.ui-testing.controller.BaseController", {
+
     /**
      * Convenience method for accessing the router in every controller of the application.
      * @public
@@ -59,6 +60,11 @@ sap.ui.define([
       } else {
         this.getRouter().navTo("master", {}, true);
       }
+    },
+
+
+    formatStateText: function (sStatusText) {
+      return this.getResourceBundle().getText(sStatusText);
     }
 
   });
