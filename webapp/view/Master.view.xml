@@ -59,23 +59,17 @@
           </Toolbar>
         </infoToolbar>
         <items>
-          <!--number="{-->
-          <!--path: 'EstimatedCost/Value',-->
-          <!--type: 'sap.ui.model.type.Currency',-->
-          <!--formatOptions: {-->
-          <!--source: {-->
-          <!--groupingSeparator: '',-->
-          <!--decimalSeparator: '.'-->
-          <!--}-->
-          <!--}-->
-          <!--}"-->
           <ObjectListItem
             type="{= ${device>/system/phone} ? 'Active' : 'Inactive'}"
             press="onSelectionChange"
             title="{TripActivityName}"
             number="{
               path: 'EstimatedCost/Value',
-              type: 'sap.ui.model.type.Float'
+              type: 'sap.ui.model.type.Float',
+              formatOptions: {
+                minFractionDigits: 2,
+                maxFractionDigits: 2
+              }
             }"
             numberUnit="{EstimatedCost/Currency}">
             <attributes>
