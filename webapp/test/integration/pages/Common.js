@@ -6,7 +6,7 @@ sap.ui.define([
     function getFrameUrl(sHash, sUrlParameters) {
       var sUrl = jQuery.sap.getResourcePath("ui5experts/ui-testing/app", ".html");
       sHash = sHash || "";
-      sUrlParameters = sUrlParameters ? "?" + sUrlParameters : "";
+      sUrlParameters = "?sap-ui-language=en" + (sUrlParameters ? "&" + sUrlParameters : "");
 
       if (sHash) {
         sHash = "#UITesting-display&/" + (sHash.indexOf("/") === 0 ? sHash.substring(1) : sHash);
@@ -69,7 +69,7 @@ sap.ui.define([
       },
 
       theUnitNumbersShouldHaveTwoDecimals: function (sControlType, sViewName, sSuccessMsg, sErrMsg) {
-        var rTwoDecimalPlaces = /^-?\d+\.\d{2}$/;
+        var rTwoDecimalPlaces = /^-?[\d|,]+\.\d{2}$/;
 
         return this.waitFor({
           controlType: sControlType,

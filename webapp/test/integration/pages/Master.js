@@ -512,7 +512,8 @@ sap.ui.define([
                 }).isMatching(oList);
               },
               success: function (oList) {
-                Opa5.assert.strictEqual(oList.getItems().length, iExpectedNumberOfItems, "The growing list dsiplays all items");
+                Opa5.assert.strictEqual(oList.getItems().length, iExpectedNumberOfItems, "The" +
+                  " growing list displays all items");
               },
               errorMessage: "List does not display all entries."
             });
