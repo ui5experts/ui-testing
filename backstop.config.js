@@ -28,7 +28,7 @@ module.exports = {
   "scenarios": [
     {
       "label": "Home",
-      "url": "http://localhost:8000/test/flpSandboxMockServer.html?serverDelay=0#UITesting-display",
+      "url": "http://localhost:8001/test/flpSandboxMockServer.html?serverDelay=0#UITesting-display",
       "readySelector": "#application-UITesting-display"
     },
     // {

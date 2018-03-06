@@ -30,7 +30,7 @@
         }"
         numberUnit="{EstimatedCost/Currency}">
         <attributes>
-          <ObjectAttribute text="{RequesterLastname}, {RequesterFirstName}" />
+          <ObjectAttribute text="{RequesterLastName}, {RequesterFirstName}" />
         </attributes>
         <statuses>
           <ObjectStatus text="{
