@@ -4,7 +4,7 @@
   "description": "Example SAPUI5 application demonstrating the use of QUnit, OPA5, karma and Backstop.JS (sitFRA 2018)",
   "main": "server.js",
   "scripts": {
-    "test": "karma start --single-run --browsers ChromeHeadless && gulp backstop:test",
+    "test": "karma start --single-run --browsers ChromeHeadless",
     "tdd": "karma start",
     "backstop": "gulp backstop:test",
     "backstop-approve": "backstop approve --config=./backstop.config.js",
