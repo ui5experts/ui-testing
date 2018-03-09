@@ -1,12 +1,12 @@
 const gulp = require('gulp');
 const backstop = require('backstopjs');
-const backstopConfig = require("./backstop.config.js");
+const backstopConfig = require("./backstop.conf.js");
 
 
 gulp.task('backstop:approve', (cb) => {
-  backstop('approve', {
+  console.log(backstop('approve', {
     config: backstopConfig
-  });
+  }));
   cb();
 });
 

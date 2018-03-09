@@ -33,22 +33,22 @@ module.exports = {
     },
     // {
     //   "label": "Detail",
-    //   "url": "http://localhost:3000/test/flpSandboxMockServer.html?serverDelay=0#UITesting-display&/Travels/7726398",
+    //   "url": "http://localhost:8001/test/flpSandboxMockServer.html?serverDelay=0#UITesting-display&/Travels/7726398",
     //   "readySelector": "#application-UITesting-display"
     // },
     // {
     //   "label": "Empty",
-    //   "url": "http://localhost:3000/test/flpSandboxMockServer.html?serverDelay=0#UITesting-display&/Travels",
+    //   "url": "http://localhost:8001/test/flpSandboxMockServer.html?serverDelay=0#UITesting-display&/Travels",
     //   "readySelector": "#application-UITesting-display"
     // },
     // {
     //   "label": "NotFound",
-    //   "url": "http://localhost:3000/test/flpSandboxMockServer.html?serverDelay=0#UITesting-display&/Travels/666",
+    //   "url": "http://localhost:8001/test/flpSandboxMockServer.html?serverDelay=0#UITesting-display&/Travels/666",
     //   "readySelector": "#application-UITesting-display"
     // },
     // {
     //   "label": "Detail-Attachments",
-    //   "url": "http://localhost:3000/test/flpSandboxMockServer.html?serverDelay=0#UITesting-display&/Travels/7726398",
+    //   "url": "http://localhost:8001/test/flpSandboxMockServer.html?serverDelay=0#UITesting-display&/Travels/7726398",
     //   "readySelector": "#application-UITesting-display-component---detail--page",
     //   "clickSelector": ".sapMITBFilter:nth-child(2)"
     // },

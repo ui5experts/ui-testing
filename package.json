@@ -7,8 +7,8 @@
     "test": "karma start --single-run --browsers ChromeHeadless",
     "tdd": "karma start",
     "backstop": "gulp backstop:test",
-    "backstop-approve": "backstop approve --config=./backstop.config.js",
-    "backstop-openReport": "backstop openReport --config=./backstop.config.js"
+    "backstop-approve": "backstop approve --config=./backstop.conf.js",
+    "backstop-openReport": "backstop openReport --config=./backstop.conf.js"
   },
   "keywords": [
     "SAPUI5",
